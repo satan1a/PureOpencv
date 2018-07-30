@@ -23,7 +23,7 @@ int main(char argc, char** argv){
             break;
         }
         GaussianBlur(frame,out,Size(5,5),3,3);
-        Canny(out,canny,50,100);
+        Canny(out,canny,10,100);
         imshow("first_video",frame);
         imshow("first_video_out",out);
         imshow("first_video_out_canny",canny);
