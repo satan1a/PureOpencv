@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="first_video" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/svrvr/PureOpencv/bin/debug/first_video" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="first_video">
+         <Option output="/home/svrvr/PureOpencv/bin/debug/first_video/first_video" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/svrvr/PureOpencv/bin/debug/first_video" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 first_video" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="first_video/fast">
+         <Option output="/home/svrvr/PureOpencv/bin/debug/first_video/first_video" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/svrvr/PureOpencv/bin/debug/first_video" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 first_video/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/bin/debug/first_video/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/svrvr/PureOpencv/src/first_video/first_video.cpp">
+         <Option target="first_video"/>
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/first_video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\first_video\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/first_video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\first_video\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/first_window/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\first_window\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/first_window/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\first_window\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

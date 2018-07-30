@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/first_video.dir/first_video.cpp.o  -o first_video -rdynamic -lopencv_imgproc -lopencv_highgui -lopencv_core -lopencv_video -lopencv_videoio 
