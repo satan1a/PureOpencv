@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/svrvr/PureOpencv/bin/debug/first_window/cmake_install.cmake")
   include("/home/svrvr/PureOpencv/bin/debug/first_video/cmake_install.cmake")
+  include("/home/svrvr/PureOpencv/bin/debug/write_video/cmake_install.cmake")
 
 endif()
 

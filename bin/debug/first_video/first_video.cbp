@@ -5,7 +5,7 @@
       <Option title="first_video" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\write_video\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/svrvr/PureOpencv/bin/debug/first_video" />
@@ -81,6 +81,12 @@
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/first_window/CMakeLists.txt">
           <Option virtualFolder="CMake Files\first_window\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/write_video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\write_video\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/write_video/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\write_video\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

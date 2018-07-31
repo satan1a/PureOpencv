@@ -7,3 +7,6 @@
 /home/svrvr/PureOpencv/bin/debug/first_video/CMakeFiles/edit_cache.dir
 /home/svrvr/PureOpencv/bin/debug/first_video/CMakeFiles/rebuild_cache.dir
 /home/svrvr/PureOpencv/bin/debug/first_video/CMakeFiles/first_video.dir
+/home/svrvr/PureOpencv/bin/debug/write_video/CMakeFiles/edit_cache.dir
+/home/svrvr/PureOpencv/bin/debug/write_video/CMakeFiles/rebuild_cache.dir
+/home/svrvr/PureOpencv/bin/debug/write_video/CMakeFiles/write_video.dir

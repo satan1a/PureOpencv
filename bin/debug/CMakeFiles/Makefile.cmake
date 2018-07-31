@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/svrvr/PureOpencv/src/CMakeLists.txt"
   "/home/svrvr/PureOpencv/src/first_video/CMakeLists.txt"
   "/home/svrvr/PureOpencv/src/first_window/CMakeLists.txt"
+  "/home/svrvr/PureOpencv/src/write_video/CMakeLists.txt"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,6 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "first_window/CMakeFiles/CMakeDirectoryInformation.cmake"
   "first_video/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "write_video/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -50,4 +52,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/src.dir/DependInfo.cmake"
   "first_window/CMakeFiles/first_window.dir/DependInfo.cmake"
   "first_video/CMakeFiles/first_video.dir/DependInfo.cmake"
+  "write_video/CMakeFiles/write_video.dir/DependInfo.cmake"
   )

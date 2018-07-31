@@ -149,6 +149,19 @@ first_video/fast:
 	$(MAKE) -f first_video/CMakeFiles/first_video.dir/build.make first_video/CMakeFiles/first_video.dir/build
 .PHONY : first_video/fast
 
+#=============================================================================
+# Target rules for targets named write_video
+
+# Build rule for target.
+write_video: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 write_video
+.PHONY : write_video
+
+# fast build rule for target.
+write_video/fast:
+	$(MAKE) -f write_video/CMakeFiles/write_video.dir/build.make write_video/CMakeFiles/write_video.dir/build
+.PHONY : write_video/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -187,6 +200,7 @@ help:
 	@echo "... src"
 	@echo "... first_window"
 	@echo "... first_video"
+	@echo "... write_video"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
