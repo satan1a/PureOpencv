@@ -3,6 +3,7 @@
 sudo apt-get install -y build-essential
 sudo apt-get install -y cmake
 sudo apt-get install -y cmake-qt-gui
+sudo apt-get install -y libgtk2.0-dev pkg-config
 sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev
 sudo apt-get install -y libjpeg-dev libpng-dev libtiff-dev libjasper-dev
 if [ ! -f 3.4.2.zip ];then
