@@ -8,12 +8,12 @@ int main(char argc,char** argv){
 
     Mat ori_img = imread(argv[1],-1);
     Mat dst_img;
-    Mat kernel = Mat(3,3,CV_64FC1);
-    kernel = (Mat_<double>(5, 5) << 0.04,0.04,0.04,0.04,0.04,
-              0.04,0.04,0.04,0.04,0.04,
-              0.04,0.04,0.04,0.04,0.04,
-              0.04,0.04,0.04,0.04,0.04,
-              0.04,0.04,0.04,0.04,0.04);
+
+    int r = 50;
+
+    Mat kernel(r,r,CV_64FC1,1);
+    kernel = kernel/(r*r);
+
     if(ori_img.empty()){
         return -1;
     }
