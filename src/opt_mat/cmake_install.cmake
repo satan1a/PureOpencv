@@ -1,4 +1,4 @@
-# Install script for directory: /home/hotsauce/PureOpencv/src/opt_mat
+# Install script for directory: /home/svrvr/PureOpencv/src/opt_mat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

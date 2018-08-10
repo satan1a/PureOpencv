@@ -7,6 +7,7 @@ add_subdirectory(image_smooth)
 add_subdirectory(first_window)
 add_subdirectory(first_video)
 add_subdirectory(write_video)
+add_subdirectory(sift)
 
 add_executable(${PROJECT_NAME} "main.cpp")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp" "/home/svrvr/PureOpencv/src/opt_mat/CMakeFiles/opt_mat.dir/opt_mat.cpp.o"
+  "/home/svrvr/PureOpencv/src/sift/sift.cpp" "/home/svrvr/PureOpencv/src/sift/CMakeFiles/sift.dir/sift.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hotsauce/PureOpencv/src/image_smooth/image_smooth.cpp" "/home/hotsauce/PureOpencv/src/image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.o"
+  "/home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp" "/home/svrvr/PureOpencv/src/image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hotsauce/PureOpencv/src/image_smooth/image_smooth.cpp
+/home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp
 stdio.h
 -
 opencv2/opencv.hpp

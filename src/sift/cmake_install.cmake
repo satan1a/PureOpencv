@@ -1,4 +1,4 @@
-# Install script for directory: /home/svrvr/PureOpencv/src/image_smooth
+# Install script for directory: /home/svrvr/PureOpencv/src/sift
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
