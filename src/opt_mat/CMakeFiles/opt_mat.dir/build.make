@@ -60,15 +60,15 @@ include opt_mat/CMakeFiles/opt_mat.dir/flags.make
 opt_mat/CMakeFiles/opt_mat.dir/opt_mat.cpp.o: opt_mat/CMakeFiles/opt_mat.dir/flags.make
 opt_mat/CMakeFiles/opt_mat.dir/opt_mat.cpp.o: opt_mat/opt_mat.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/svrvr/PureOpencv/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object opt_mat/CMakeFiles/opt_mat.dir/opt_mat.cpp.o"
-	cd /home/svrvr/PureOpencv/src/opt_mat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opt_mat.dir/opt_mat.cpp.o -c /home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp
+	cd /home/svrvr/PureOpencv/src/opt_mat && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opt_mat.dir/opt_mat.cpp.o -c /home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp
 
 opt_mat/CMakeFiles/opt_mat.dir/opt_mat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opt_mat.dir/opt_mat.cpp.i"
-	cd /home/svrvr/PureOpencv/src/opt_mat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp > CMakeFiles/opt_mat.dir/opt_mat.cpp.i
+	cd /home/svrvr/PureOpencv/src/opt_mat && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp > CMakeFiles/opt_mat.dir/opt_mat.cpp.i
 
 opt_mat/CMakeFiles/opt_mat.dir/opt_mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opt_mat.dir/opt_mat.cpp.s"
-	cd /home/svrvr/PureOpencv/src/opt_mat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp -o CMakeFiles/opt_mat.dir/opt_mat.cpp.s
+	cd /home/svrvr/PureOpencv/src/opt_mat && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp -o CMakeFiles/opt_mat.dir/opt_mat.cpp.s
 
 opt_mat/CMakeFiles/opt_mat.dir/opt_mat.cpp.o.requires:
 

@@ -60,15 +60,15 @@ include image_smooth/CMakeFiles/image_smooth.dir/flags.make
 image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.o: image_smooth/CMakeFiles/image_smooth.dir/flags.make
 image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.o: image_smooth/image_smooth.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/svrvr/PureOpencv/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.o"
-	cd /home/svrvr/PureOpencv/src/image_smooth && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_smooth.dir/image_smooth.cpp.o -c /home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp
+	cd /home/svrvr/PureOpencv/src/image_smooth && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_smooth.dir/image_smooth.cpp.o -c /home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp
 
 image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_smooth.dir/image_smooth.cpp.i"
-	cd /home/svrvr/PureOpencv/src/image_smooth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp > CMakeFiles/image_smooth.dir/image_smooth.cpp.i
+	cd /home/svrvr/PureOpencv/src/image_smooth && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp > CMakeFiles/image_smooth.dir/image_smooth.cpp.i
 
 image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_smooth.dir/image_smooth.cpp.s"
-	cd /home/svrvr/PureOpencv/src/image_smooth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp -o CMakeFiles/image_smooth.dir/image_smooth.cpp.s
+	cd /home/svrvr/PureOpencv/src/image_smooth && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp -o CMakeFiles/image_smooth.dir/image_smooth.cpp.s
 
 image_smooth/CMakeFiles/image_smooth.dir/image_smooth.cpp.o.requires:
 

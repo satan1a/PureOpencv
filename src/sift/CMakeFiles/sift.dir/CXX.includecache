@@ -23,4 +23,6 @@ opencv2/opencv.hpp
 -
 opencv2/imgcodecs.hpp
 -
+opencv2/xfeatures2d/nonfree.hpp
+-
 

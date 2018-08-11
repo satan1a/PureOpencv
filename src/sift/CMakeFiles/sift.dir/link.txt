@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/sift.dir/sift.cpp.o  -o sift -rdynamic -lopencv_aruco -lopencv_imgcodecs -lopencv_highgui -lopencv_core -lopencv_imgproc -lopencv_xfeatures2d -lopencv_features2d -lopencv_flann 
+/usr/bin/g++   -g   CMakeFiles/sift.dir/sift.cpp.o  -o sift -rdynamic -lopencv_core -lopencv_aruco -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -lopencv_xfeatures2d -lopencv_features2d -lopencv_flann 

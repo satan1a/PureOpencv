@@ -5,7 +5,7 @@
       <Option title="image_smooth" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\sift\;CMake Files\write_video\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/svrvr/PureOpencv/src/image_smooth" />
@@ -24,6 +24,14 @@
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
             <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 image_smooth" />
@@ -39,6 +47,14 @@
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
             <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 image_smooth/fast" />
@@ -77,6 +93,12 @@
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/opt_mat/CMakeLists.txt">
           <Option virtualFolder="CMake Files\opt_mat\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/roi/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\roi\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/roi/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\roi\" />
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/sift/CMakeLists.txt">
           <Option virtualFolder="CMake Files\sift\" />

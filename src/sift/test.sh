@@ -1,4 +1,4 @@
 #!/bin/bash
-
-./sift ../../../cloudpoints/mainpano.jpg ../../../cloudpoints/camera_0_point3d_15.jpg
+cd ../ && make
+cd sift && ./sift ../../../cloudpoints/mainpano.jpg ../../../cloudpoints/camera_0_point3d_$1.jpg
 

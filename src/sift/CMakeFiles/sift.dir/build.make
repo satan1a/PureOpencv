@@ -60,15 +60,15 @@ include sift/CMakeFiles/sift.dir/flags.make
 sift/CMakeFiles/sift.dir/sift.cpp.o: sift/CMakeFiles/sift.dir/flags.make
 sift/CMakeFiles/sift.dir/sift.cpp.o: sift/sift.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/svrvr/PureOpencv/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sift/CMakeFiles/sift.dir/sift.cpp.o"
-	cd /home/svrvr/PureOpencv/src/sift && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sift.dir/sift.cpp.o -c /home/svrvr/PureOpencv/src/sift/sift.cpp
+	cd /home/svrvr/PureOpencv/src/sift && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sift.dir/sift.cpp.o -c /home/svrvr/PureOpencv/src/sift/sift.cpp
 
 sift/CMakeFiles/sift.dir/sift.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sift.dir/sift.cpp.i"
-	cd /home/svrvr/PureOpencv/src/sift && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/svrvr/PureOpencv/src/sift/sift.cpp > CMakeFiles/sift.dir/sift.cpp.i
+	cd /home/svrvr/PureOpencv/src/sift && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/svrvr/PureOpencv/src/sift/sift.cpp > CMakeFiles/sift.dir/sift.cpp.i
 
 sift/CMakeFiles/sift.dir/sift.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sift.dir/sift.cpp.s"
-	cd /home/svrvr/PureOpencv/src/sift && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/svrvr/PureOpencv/src/sift/sift.cpp -o CMakeFiles/sift.dir/sift.cpp.s
+	cd /home/svrvr/PureOpencv/src/sift && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/svrvr/PureOpencv/src/sift/sift.cpp -o CMakeFiles/sift.dir/sift.cpp.s
 
 sift/CMakeFiles/sift.dir/sift.cpp.o.requires:
 
