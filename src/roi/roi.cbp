@@ -5,7 +5,7 @@
       <Option title="roi" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/svrvr/PureOpencv/src/roi" />
@@ -81,6 +81,12 @@
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/first_window/CMakeLists.txt">
           <Option virtualFolder="CMake Files\first_window\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/flann_feature/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\flann_feature\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/flann_feature/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\flann_feature\" />
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/image_smooth/CMakeLists.txt">
           <Option virtualFolder="CMake Files\image_smooth\" />

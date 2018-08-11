@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/flann_feature.dir/hmc.cpp.o  -o flann_feature -rdynamic -lopencv_core -lopencv_aruco -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -lopencv_xfeatures2d -lopencv_features2d -lopencv_flann 

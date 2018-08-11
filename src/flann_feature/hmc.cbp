@@ -2,24 +2,24 @@
 <CodeBlocks_project_file>
    <FileVersion major="1" minor="6" />
    <Project>
-      <Option title="image_smooth" />
+      <Option title="hmc" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
       <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;" />
       <Build>
       <Target title="all">
-         <Option working_dir="/home/svrvr/PureOpencv/src/image_smooth" />
+         <Option working_dir="/home/svrvr/PureOpencv/src/flann_feature" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
-      <Target title="image_smooth">
-         <Option output="/home/svrvr/PureOpencv/src/image_smooth/image_smooth" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/image_smooth" />
+      <Target title="hmc">
+         <Option output="/home/svrvr/PureOpencv/src/flann_feature/hmc" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/svrvr/PureOpencv/src/flann_feature" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -34,15 +34,15 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 image_smooth" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 hmc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
-      <Target title="image_smooth/fast">
-         <Option output="/home/svrvr/PureOpencv/src/image_smooth/image_smooth" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/image_smooth" />
+      <Target title="hmc/fast">
+         <Option output="/home/svrvr/PureOpencv/src/flann_feature/hmc" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/svrvr/PureOpencv/src/flann_feature" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -57,15 +57,15 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 image_smooth/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/image_smooth/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 hmc/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/flann_feature/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/svrvr/PureOpencv/src/image_smooth/image_smooth.cpp">
-         <Option target="image_smooth"/>
+      <Unit filename="/home/svrvr/PureOpencv/src/flann_feature/hmc.cpp">
+         <Option target="hmc"/>
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

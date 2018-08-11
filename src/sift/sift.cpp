@@ -65,6 +65,8 @@ int main(int argc,char* argv[]){
             good_matches.push_back( matches[i] );
         }
     }
+
+
     Mat img_matches;
     Mat img_matches_2;
     drawMatches(img1,keypoints_1,img2,keypoints_2,
