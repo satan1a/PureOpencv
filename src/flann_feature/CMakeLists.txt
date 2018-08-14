@@ -10,6 +10,7 @@ LINK_LIBRARIES(opencv_imgproc)
 LINK_LIBRARIES(opencv_xfeatures2d)
 LINK_LIBRARIES(opencv_features2d)
 LINK_LIBRARIES(opencv_flann)
+LINK_LIBRARIES(opencv_calib3d)
 
 add_executable(${PROJECT_NAME} "hmc.cpp")
 

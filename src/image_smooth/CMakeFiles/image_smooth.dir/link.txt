@@ -1,1 +1,1 @@
-/usr/bin/g++   -g   CMakeFiles/image_smooth.dir/image_smooth.cpp.o  -o image_smooth -rdynamic -lopencv_imgcodecs -lopencv_highgui -lopencv_core -lopencv_imgproc 
+/usr/bin/g++      CMakeFiles/image_smooth.dir/image_smooth.cpp.o  -o image_smooth -rdynamic -lopencv_imgcodecs -lopencv_highgui -lopencv_core -lopencv_imgproc 

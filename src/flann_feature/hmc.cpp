@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <iostream>
+#include "opencv2/opencv.hpp"
 #include "opencv2/core.hpp"
-#include "opencv2/features2d.hpp"
 #include "opencv2/highgui.hpp"
-#include "opencv2/calib3d.hpp"
 #include "opencv2/xfeatures2d.hpp"
+#include "opencv2/calib3d/calib3d.hpp"
+#include "opencv2/xfeatures2d/nonfree.hpp"
 
+using namespace std;
 using namespace cv;
 using namespace cv::xfeatures2d;
 
@@ -18,7 +20,10 @@ int main( int argc, char** argv )
   { readme(); return -1; }
 
   Mat img_object = imread( argv[1], IMREAD_GRAYSCALE );
+  //Mat img_ori = imread( argv[2], IMREAD_GRAYSCALE );
+  //Mat img_scene = img_ori( Rect(0,1350,img_ori.cols, 1500) );
   Mat img_scene = imread( argv[2], IMREAD_GRAYSCALE );
+  rotate(img_scene,img_scene,0);
 
   if( !img_object.data || !img_scene.data )
   { std::cout<< " --(!) Error reading images " << std::endl; return -1; }
@@ -26,20 +31,21 @@ int main( int argc, char** argv )
   //-- Step 1: Detect the keypoints using SURF Detector
   int minHessian = 400;
 
-  SurfFeatureDetector detector( minHessian );
+  Ptr<SIFT> detector = SIFT::create();
+  //SurfFeatureDetector detector( minHessian );
 
   std::vector<KeyPoint> keypoints_object, keypoints_scene;
 
-  detector.detect( img_object, keypoints_object );
-  detector.detect( img_scene, keypoints_scene );
+  detector->detect( img_object, keypoints_object );
+  detector->detect( img_scene, keypoints_scene );
 
   //-- Step 2: Calculate descriptors (feature vectors)
-  SurfDescriptorExtractor extractor;
 
+  Ptr<SIFT> extractor = SIFT::create();
   Mat descriptors_object, descriptors_scene;
 
-  extractor.compute( img_object, keypoints_object, descriptors_object );
-  extractor.compute( img_scene, keypoints_scene, descriptors_scene );
+  extractor->compute( img_object, keypoints_object, descriptors_object );
+  extractor->compute( img_scene, keypoints_scene, descriptors_scene );
 
   //-- Step 3: Matching descriptor vectors using FLANN matcher
   FlannBasedMatcher matcher;
@@ -49,8 +55,8 @@ int main( int argc, char** argv )
   double max_dist = 0; double min_dist = 100;
 
   //-- Quick calculation of max and min distances between keypoints
-  for( int i = 0; i < descriptors_object.rows; i++ )
-  { double dist = matches[i].distance;
+  for( int i = 0; i < descriptors_object.rows; i++ ){ 
+    double dist = (double)matches[i].distance;
     if( dist < min_dist ) min_dist = dist;
     if( dist > max_dist ) max_dist = dist;
   }
@@ -82,8 +88,9 @@ int main( int argc, char** argv )
     scene.push_back( keypoints_scene[ good_matches[i].trainIdx ].pt );
   }
 
-  Mat H = findHomography( obj, scene, RANSAC );
 
+  Mat H = findHomography( obj, scene, RANSAC);
+  //Mat H = findHomography( obj, scene ,out);
   //-- Get the corners from the image_1 ( the object to be "detected" )
   std::vector<Point2f> obj_corners(4);
   obj_corners[0] = cvPoint(0,0); obj_corners[1] = cvPoint( img_object.cols, 0 );
@@ -98,10 +105,13 @@ int main( int argc, char** argv )
   line( img_matches, scene_corners[2] + Point2f( img_object.cols, 0), scene_corners[3] + Point2f( img_object.cols, 0), Scalar( 0, 255, 0), 4 );
   line( img_matches, scene_corners[3] + Point2f( img_object.cols, 0), scene_corners[0] + Point2f( img_object.cols, 0), Scalar( 0, 255, 0), 4 );
 
+
+  namedWindow ("Good Matches & Object detection",WINDOW_FREERATIO);
   //-- Show detected matches
   imshow( "Good Matches & Object detection", img_matches );
 
   waitKey(0);
+  imwrite ("/home/matches.jpg",img_matches);
   return 0;
   }
 
