@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/svrvr/PureOpencv/src/plyfile/plyfile.cpp
+stdio.h
+-
+math.h
+-
+plyfile.hpp
+/home/svrvr/PureOpencv/src/plyfile/plyfile.hpp
+
+/home/svrvr/PureOpencv/src/plyfile/plyfile.hpp
+
+/home/svrvr/PureOpencv/src/plyfile/test.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+string
+-
+vector
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui.hpp
+-
+plyfile.hpp
+/home/svrvr/PureOpencv/src/plyfile/plyfile.hpp
+

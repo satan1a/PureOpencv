@@ -4,7 +4,14 @@
 using namespace cv;
 using namespace std;
 
-int main(char argc, char* argv[]){
+int main(int argc, char* argv[]){
+
+
+    float sin40 = sin((90.0f/360));
+    std::cout << sin40 << std::endl;
+
+    float cos40 = cos((90.0f/360));
+    std::cout << cos40 << std::endl;
 
     //CV_8UC(n), ..., CV_64FC(n)
     Mat A(5,5,CV_64FC1,1);
