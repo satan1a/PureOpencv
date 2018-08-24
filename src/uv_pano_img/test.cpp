@@ -17,7 +17,7 @@ int main(int argc,char** argv){
     UvImg uvimg;
 
     uvimg.processXyzFile ("/home/panosingle/camera_2_point3d_uv_0.xyz",
-                          "/home/panosingle/camera_2_point3d_rgb1.xyz",
+                          "/home/panosingle/camera_2_point3d_rgb2.fly",
                           img);
 
     return 0;

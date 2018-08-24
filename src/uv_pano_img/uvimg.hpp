@@ -11,7 +11,7 @@ class UvImg{
 public:
     UvImg(){};
     void processXyzFile(const char* path,const char *outpath,cv::Mat img);
-
+    void addPlyHeader();
 private:
     std::vector<std::string> split(const std::string &s, const std::string &delim);
 };

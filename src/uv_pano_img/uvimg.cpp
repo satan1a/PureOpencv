@@ -4,6 +4,22 @@
 
 void UvImg::processXyzFile(const char *inpath,const char *outpath,cv::Mat img)
 {
+
+    char plyHeader[] ="ply\n"
+            "format ascii 1.0\n"
+            "element vertex           \n"
+            "property float x\n"
+            "property float y\n"
+            "property float z\n"
+            "property uchar red\n"
+            "property uchar green\n"
+            "property uchar blue\n"
+            "end_header\n";
+
+    int offset = strlen("ply\n"
+                        "format ascii 1.0\n"
+                        "element vertex ");
+
     FILE *fp = NULL;
     FILE *fp_out = NULL;
     ssize_t read;
@@ -27,6 +43,8 @@ void UvImg::processXyzFile(const char *inpath,const char *outpath,cv::Mat img)
         printf ("image is empty failed");
         return;
     }
+    fwrite (plyHeader, strlen (plyHeader),1, fp_out);
+
     std::string tmp_str;
     cv::Vec3b point;
     printf ("input file is %s \n",inpath);
@@ -40,6 +58,7 @@ void UvImg::processXyzFile(const char *inpath,const char *outpath,cv::Mat img)
 
     while((read = getline (&line, &len,fp)) != -1){
 
+        i++;
         tmp_str = line;
         list = split(tmp_str," ");
 
@@ -74,9 +93,14 @@ void UvImg::processXyzFile(const char *inpath,const char *outpath,cv::Mat img)
         printf ("image cols is %d \n",img.cols);
         printf ("image rows is %d \n",img.rows);
     }
+    memset (out,0,100);
+    sprintf (out,"%d",i);
+    fseek (fp_out,offset,SEEK_SET);
+    fwrite (out,1, strlen (out),fp_out);
     fclose (fp);
     fclose (fp_out);
 }
+
 
 std::vector<std::string> UvImg::split(const  std::string& s, const std::string& delim)
 {
