@@ -4,6 +4,8 @@
 plyfile/CMakeFiles/plyfile.dir/plyfile.cpp.o
  /home/svrvr/PureOpencv/src/plyfile/plyfile.cpp
  /home/svrvr/PureOpencv/src/plyfile/plyfile.hpp
+plyfile/CMakeFiles/plyfile.dir/table_math.cpp.o
+ /home/svrvr/PureOpencv/src/plyfile/table_math.cpp
 plyfile/CMakeFiles/plyfile.dir/test.cpp.o
  /home/svrvr/PureOpencv/src/plyfile/plyfile.hpp
  /home/svrvr/PureOpencv/src/plyfile/test.cpp

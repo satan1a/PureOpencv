@@ -75,8 +75,8 @@ int main(int argc,char** argv){
 
 //            float longti = fastAtan2 (y,x);
 //            float altitu = fastAtan2 (z, cv::sqrt (x*x+y*y));
-            double longti = atan2(z,x);
-            double altitu = atan2(y, sqrtf (x*x+z*z));
+            double longti = atan2(y,x);
+            double altitu = atan2(z, sqrtf (x*x+y*y));
 
             //printf("longti is %f,altitu is %f)\n",longti,altitu);
             double img_x = longti/PI;

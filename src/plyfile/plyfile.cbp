@@ -5,7 +5,7 @@
       <Option title="plyfile" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\plyfile\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\cut_img\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\plyfile\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;CMake Files\uv_pano_img\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/svrvr/PureOpencv/src/plyfile" />
@@ -70,12 +70,24 @@
       <Unit filename="/home/svrvr/PureOpencv/src/plyfile/plyfile.hpp">
          <Option target="plyfile"/>
       </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/plyfile/table_math.cpp">
+         <Option target="plyfile"/>
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/plyfile/table_math.hpp">
+         <Option target="plyfile"/>
+      </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/plyfile/test.cpp">
          <Option target="plyfile"/>
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/cut_img/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cut_img\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/cut_img/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cut_img\" />
+      </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/first_video/CMakeLists.txt">
           <Option virtualFolder="CMake Files\first_video\" />
       </Unit>
@@ -129,6 +141,12 @@
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/write_video/CMakeLists.txt">
           <Option virtualFolder="CMake Files\write_video\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/uv_pano_img/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\uv_pano_img\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/uv_pano_img/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\uv_pano_img\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

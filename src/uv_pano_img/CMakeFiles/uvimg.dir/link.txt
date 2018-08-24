@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/uvimg.dir/test.cpp.o CMakeFiles/uvimg.dir/uvimg.cpp.o  -o uvimg -rdynamic -lopencv_core -lopencv_aruco -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -lopencv_xfeatures2d -lopencv_features2d -lopencv_flann -lopencv_calib3d 

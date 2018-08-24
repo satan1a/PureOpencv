@@ -4,6 +4,8 @@
 plyfile/CMakeFiles/plyfile.dir/plyfile.cpp.o: plyfile/plyfile.cpp
 plyfile/CMakeFiles/plyfile.dir/plyfile.cpp.o: plyfile/plyfile.hpp
 
+plyfile/CMakeFiles/plyfile.dir/table_math.cpp.o: plyfile/table_math.cpp
+
 plyfile/CMakeFiles/plyfile.dir/test.cpp.o: plyfile/plyfile.hpp
 plyfile/CMakeFiles/plyfile.dir/test.cpp.o: plyfile/test.cpp
 

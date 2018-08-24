@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/svrvr/PureOpencv/src/plyfile/plyfile.cpp" "/home/svrvr/PureOpencv/src/plyfile/CMakeFiles/plyfile.dir/plyfile.cpp.o"
-  "/home/svrvr/PureOpencv/src/plyfile/table_math.cpp" "/home/svrvr/PureOpencv/src/plyfile/CMakeFiles/plyfile.dir/table_math.cpp.o"
-  "/home/svrvr/PureOpencv/src/plyfile/test.cpp" "/home/svrvr/PureOpencv/src/plyfile/CMakeFiles/plyfile.dir/test.cpp.o"
+  "/home/svrvr/PureOpencv/src/uv_pano_img/test.cpp" "/home/svrvr/PureOpencv/src/uv_pano_img/CMakeFiles/uvimg.dir/test.cpp.o"
+  "/home/svrvr/PureOpencv/src/uv_pano_img/uvimg.cpp" "/home/svrvr/PureOpencv/src/uv_pano_img/CMakeFiles/uvimg.dir/uvimg.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

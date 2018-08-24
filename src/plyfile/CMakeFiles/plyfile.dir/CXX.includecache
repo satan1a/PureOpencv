@@ -16,6 +16,8 @@ plyfile.hpp
 
 /home/svrvr/PureOpencv/src/plyfile/plyfile.hpp
 
+/home/svrvr/PureOpencv/src/plyfile/table_math.cpp
+
 /home/svrvr/PureOpencv/src/plyfile/test.cpp
 stdio.h
 -

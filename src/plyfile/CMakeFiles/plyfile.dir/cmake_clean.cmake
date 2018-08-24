@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plyfile.dir/test.cpp.o"
   "CMakeFiles/plyfile.dir/plyfile.cpp.o"
+  "CMakeFiles/plyfile.dir/table_math.cpp.o"
   "plyfile.pdb"
   "plyfile"
 )
