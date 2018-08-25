@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/svrvr/PureOpencv/src/cut_img/cut_img.cpp
+cut_img.hpp
+/home/svrvr/PureOpencv/src/cut_img/cut_img.hpp
+opencv2/highgui.hpp
+/home/svrvr/PureOpencv/src/cut_img/opencv2/highgui.hpp
+
+/home/svrvr/PureOpencv/src/cut_img/cut_img.hpp
+opencv2/core.hpp
+/home/svrvr/PureOpencv/src/cut_img/opencv2/core.hpp
+
+/home/svrvr/PureOpencv/src/cut_img/test.cpp
+cut_img.hpp
+/home/svrvr/PureOpencv/src/cut_img/cut_img.hpp
+opencv2/core.hpp
+/home/svrvr/PureOpencv/src/cut_img/opencv2/core.hpp
+

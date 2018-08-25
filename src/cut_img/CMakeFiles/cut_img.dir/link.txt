@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/cut_img.dir/test.cpp.o CMakeFiles/cut_img.dir/cut_img.cpp.o  -o cut_img -rdynamic -lopencv_core -lopencv_aruco -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -lopencv_xfeatures2d -lopencv_features2d -lopencv_flann -lopencv_calib3d 
