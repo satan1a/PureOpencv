@@ -15,6 +15,8 @@ do
 		else
 			rm -r $var/$CMAKEFILE_DIR
 			rm -r $var/build
+			rm  $var/cmake_install.cmake
+			rm $var/Makefile
 			rm $var/$CMAKECACHE
 		fi
 	fi
