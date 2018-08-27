@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/svrvr/PureOpencv/src/plyfile/cmake_install.cmake")
   include("/home/svrvr/PureOpencv/src/cut_img/cmake_install.cmake")
   include("/home/svrvr/PureOpencv/src/uv_pano_img/cmake_install.cmake")
+  include("/home/svrvr/PureOpencv/src/pano_img_viewer/cmake_install.cmake")
 
 endif()
 

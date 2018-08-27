@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/opt_mat.dir/opt_mat.cpp.o  -o opt_mat -rdynamic -lopencv_core 

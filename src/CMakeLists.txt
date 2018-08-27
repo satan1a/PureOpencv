@@ -1,5 +1,12 @@
 cmake_minimum_required(VERSION 2.8)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ./build)
+set(CMAKE_CACHEFILE_DIR ./build)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ./build/debug)
+set(CMAKE_CACHEFILE_DIR ./build/debug)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ./build/release)
+set(CMAKE_CACHEFILE_DIR ./build/release)
+
 project(src)
 
 add_subdirectory(flann_feature)
@@ -13,6 +20,7 @@ add_subdirectory(sift)
 add_subdirectory (plyfile)
 add_subdirectory (cut_img)
 add_subdirectory (uv_pano_img)
+add_subdirectory (pano_img_viewer)
 
 aux_source_directory(. SRC_LIST)
 add_executable(${PROJECT_NAME} ${SRC_LIST})

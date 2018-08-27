@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/first_window.dir/first_window.cpp.o  -o first_window -rdynamic -lopencv_imgcodecs -lopencv_highgui -lopencv_core 

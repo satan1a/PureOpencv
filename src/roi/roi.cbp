@@ -5,7 +5,7 @@
       <Option title="roi" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\cut_img\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\plyfile\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;CMake Files\uv_pano_img\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\cut_img\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\pano_img_viewer\;CMake Files\plyfile\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;CMake Files\uv_pano_img\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/svrvr/PureOpencv/src/roi" />
@@ -18,19 +18,21 @@
          </MakeCommands>
       </Target>
       <Target title="roi">
-         <Option output="/home/svrvr/PureOpencv/src/roi/roi" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/roi" />
+         <Option output="/home/svrvr/PureOpencv/src/roi/build/roi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -41,19 +43,21 @@
          </MakeCommands>
       </Target>
       <Target title="roi/fast">
-         <Option output="/home/svrvr/PureOpencv/src/roi/roi" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/roi" />
+         <Option output="/home/svrvr/PureOpencv/src/roi/build/roi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -105,6 +109,12 @@
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/opt_mat/CMakeLists.txt">
           <Option virtualFolder="CMake Files\opt_mat\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/pano_img_viewer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pano_img_viewer\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/pano_img_viewer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pano_img_viewer\" />
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/plyfile/CMakeLists.txt">
           <Option virtualFolder="CMake Files\plyfile\" />

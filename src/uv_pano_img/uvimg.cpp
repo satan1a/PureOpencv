@@ -54,6 +54,7 @@ void UvImg::processXyzFile(const char *inpath,const char *outpath,cv::Mat img)
     std::vector<std::string> list;
     int u;
     int v;
+
     float rate = 4000.0 / 5120.0;
 
     while((read = getline (&line, &len,fp)) != -1){
@@ -71,12 +72,12 @@ void UvImg::processXyzFile(const char *inpath,const char *outpath,cv::Mat img)
         z = atof(list[2].c_str ());
 
         u = atoi(list[3].c_str ());
+        //u = (int)((float)u/640.0 * 1000);
 
-        u = (int)((float)u/640.0 * 700) * rate;
         v = atoi(list[4].c_str ());
-        v = (int)((float)v/480.0 * 500) * rate;
+        //v = (int)((float)v/480.0 * 750);
         //bgr
-        if( u < img.cols && v < img.rows){
+        if( u < img.cols && v < img.rows && v > 0 && u > 0){
             i++;
             unsigned char* rgb_p = img.ptr <uchar>(v);
             int r = rgb_p[3*u + 2];

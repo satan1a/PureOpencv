@@ -5,7 +5,7 @@
       <Option title="src" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\cut_img\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\plyfile\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;CMake Files\uv_pano_img\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\cut_img\;CMake Files\first_video\;CMake Files\first_window\;CMake Files\flann_feature\;CMake Files\image_smooth\;CMake Files\opt_mat\;CMake Files\pano_img_viewer\;CMake Files\plyfile\;CMake Files\roi\;CMake Files\sift\;CMake Files\write_video\;CMake Files\uv_pano_img\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/svrvr/PureOpencv/src" />
@@ -38,19 +38,21 @@
          </MakeCommands>
       </Target>
       <Target title="src">
-         <Option output="/home/svrvr/PureOpencv/src/src" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src" />
+         <Option output="/home/svrvr/PureOpencv/src/build/src" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -61,19 +63,21 @@
          </MakeCommands>
       </Target>
       <Target title="src/fast">
-         <Option output="/home/svrvr/PureOpencv/src/src" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src" />
+         <Option output="/home/svrvr/PureOpencv/src/build/src" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -84,19 +88,21 @@
          </MakeCommands>
       </Target>
       <Target title="flann_feature">
-         <Option output="/home/svrvr/PureOpencv/src/flann_feature/flann_feature" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/flann_feature" />
+         <Option output="/home/svrvr/PureOpencv/src/flann_feature/build/flann_feature" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -107,19 +113,21 @@
          </MakeCommands>
       </Target>
       <Target title="flann_feature/fast">
-         <Option output="/home/svrvr/PureOpencv/src/flann_feature/flann_feature" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/flann_feature" />
+         <Option output="/home/svrvr/PureOpencv/src/flann_feature/build/flann_feature" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -130,19 +138,21 @@
          </MakeCommands>
       </Target>
       <Target title="roi">
-         <Option output="/home/svrvr/PureOpencv/src/roi/roi" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/roi" />
+         <Option output="/home/svrvr/PureOpencv/src/roi/build/roi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -153,19 +163,21 @@
          </MakeCommands>
       </Target>
       <Target title="roi/fast">
-         <Option output="/home/svrvr/PureOpencv/src/roi/roi" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/roi" />
+         <Option output="/home/svrvr/PureOpencv/src/roi/build/roi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -176,19 +188,21 @@
          </MakeCommands>
       </Target>
       <Target title="opt_mat">
-         <Option output="/home/svrvr/PureOpencv/src/opt_mat/opt_mat" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/opt_mat" />
+         <Option output="/home/svrvr/PureOpencv/src/opt_mat/build/opt_mat" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -199,19 +213,21 @@
          </MakeCommands>
       </Target>
       <Target title="opt_mat/fast">
-         <Option output="/home/svrvr/PureOpencv/src/opt_mat/opt_mat" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/opt_mat" />
+         <Option output="/home/svrvr/PureOpencv/src/opt_mat/build/opt_mat" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -222,19 +238,21 @@
          </MakeCommands>
       </Target>
       <Target title="image_smooth">
-         <Option output="/home/svrvr/PureOpencv/src/image_smooth/image_smooth" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/image_smooth" />
+         <Option output="/home/svrvr/PureOpencv/src/image_smooth/build/image_smooth" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -245,19 +263,21 @@
          </MakeCommands>
       </Target>
       <Target title="image_smooth/fast">
-         <Option output="/home/svrvr/PureOpencv/src/image_smooth/image_smooth" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/image_smooth" />
+         <Option output="/home/svrvr/PureOpencv/src/image_smooth/build/image_smooth" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -268,19 +288,21 @@
          </MakeCommands>
       </Target>
       <Target title="first_window">
-         <Option output="/home/svrvr/PureOpencv/src/first_window/first_window" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/first_window" />
+         <Option output="/home/svrvr/PureOpencv/src/first_window/build/first_window" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -291,19 +313,21 @@
          </MakeCommands>
       </Target>
       <Target title="first_window/fast">
-         <Option output="/home/svrvr/PureOpencv/src/first_window/first_window" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/first_window" />
+         <Option output="/home/svrvr/PureOpencv/src/first_window/build/first_window" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -314,19 +338,21 @@
          </MakeCommands>
       </Target>
       <Target title="first_video">
-         <Option output="/home/svrvr/PureOpencv/src/first_video/first_video" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/first_video" />
+         <Option output="/home/svrvr/PureOpencv/src/first_video/build/first_video" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -337,19 +363,21 @@
          </MakeCommands>
       </Target>
       <Target title="first_video/fast">
-         <Option output="/home/svrvr/PureOpencv/src/first_video/first_video" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/first_video" />
+         <Option output="/home/svrvr/PureOpencv/src/first_video/build/first_video" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -360,19 +388,21 @@
          </MakeCommands>
       </Target>
       <Target title="write_video">
-         <Option output="/home/svrvr/PureOpencv/src/write_video/write_video" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/write_video" />
+         <Option output="/home/svrvr/PureOpencv/src/write_video/build/write_video" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -383,19 +413,21 @@
          </MakeCommands>
       </Target>
       <Target title="write_video/fast">
-         <Option output="/home/svrvr/PureOpencv/src/write_video/write_video" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/write_video" />
+         <Option output="/home/svrvr/PureOpencv/src/write_video/build/write_video" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -406,19 +438,21 @@
          </MakeCommands>
       </Target>
       <Target title="sift">
-         <Option output="/home/svrvr/PureOpencv/src/sift/sift" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/sift" />
+         <Option output="/home/svrvr/PureOpencv/src/sift/build/sift" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -429,19 +463,21 @@
          </MakeCommands>
       </Target>
       <Target title="sift/fast">
-         <Option output="/home/svrvr/PureOpencv/src/sift/sift" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/sift" />
+         <Option output="/home/svrvr/PureOpencv/src/sift/build/sift" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -452,19 +488,21 @@
          </MakeCommands>
       </Target>
       <Target title="plyfile">
-         <Option output="/home/svrvr/PureOpencv/src/plyfile/plyfile" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/plyfile" />
+         <Option output="/home/svrvr/PureOpencv/src/plyfile/build/plyfile" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -475,19 +513,21 @@
          </MakeCommands>
       </Target>
       <Target title="plyfile/fast">
-         <Option output="/home/svrvr/PureOpencv/src/plyfile/plyfile" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/plyfile" />
+         <Option output="/home/svrvr/PureOpencv/src/plyfile/build/plyfile" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -498,19 +538,21 @@
          </MakeCommands>
       </Target>
       <Target title="cut_img">
-         <Option output="/home/svrvr/PureOpencv/src/cut_img/cut_img" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/cut_img" />
+         <Option output="/home/svrvr/PureOpencv/src/cut_img/build/cut_img" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -521,19 +563,21 @@
          </MakeCommands>
       </Target>
       <Target title="cut_img/fast">
-         <Option output="/home/svrvr/PureOpencv/src/cut_img/cut_img" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/cut_img" />
+         <Option output="/home/svrvr/PureOpencv/src/cut_img/build/cut_img" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -544,19 +588,21 @@
          </MakeCommands>
       </Target>
       <Target title="uvimg">
-         <Option output="/home/svrvr/PureOpencv/src/uv_pano_img/uvimg" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/uv_pano_img" />
+         <Option output="/home/svrvr/PureOpencv/src/uv_pano_img/build/uvimg" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -567,19 +613,21 @@
          </MakeCommands>
       </Target>
       <Target title="uvimg/fast">
-         <Option output="/home/svrvr/PureOpencv/src/uv_pano_img/uvimg" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/svrvr/PureOpencv/src/uv_pano_img" />
+         <Option output="/home/svrvr/PureOpencv/src/uv_pano_img/build/uvimg" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
             <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
             <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
@@ -587,6 +635,56 @@
             <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/uv_pano_img/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
             <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/uv_pano_img/Makefile&quot;  VERBOSE=1 clean" />
             <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/uv_pano_img/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pano_img_viewer">
+         <Option output="/home/svrvr/PureOpencv/src/pano_img_viewer/build/pano_img_viewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 pano_img_viewer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pano_img_viewer/fast">
+         <Option output="/home/svrvr/PureOpencv/src/pano_img_viewer/build/pano_img_viewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 pano_img_viewer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/svrvr/PureOpencv/src/pano_img_viewer/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
@@ -616,6 +714,12 @@
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/opt_mat/opt_mat.cpp">
          <Option target="opt_mat"/>
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/pano_img_viewer/pano_img_viewer.cpp">
+         <Option target="pano_img_viewer"/>
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/pano_img_viewer/pano_img_viewer.hpp">
+         <Option target="pano_img_viewer"/>
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/plyfile/plyfile.cpp">
          <Option target="plyfile"/>
@@ -688,6 +792,12 @@
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/opt_mat/CMakeLists.txt">
           <Option virtualFolder="CMake Files\opt_mat\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/pano_img_viewer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pano_img_viewer\" />
+      </Unit>
+      <Unit filename="/home/svrvr/PureOpencv/src/pano_img_viewer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pano_img_viewer\" />
       </Unit>
       <Unit filename="/home/svrvr/PureOpencv/src/plyfile/CMakeLists.txt">
           <Option virtualFolder="CMake Files\plyfile\" />
