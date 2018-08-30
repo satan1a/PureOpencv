@@ -18,6 +18,7 @@ do
 			rm  $var/cmake_install.cmake
 			rm $var/Makefile
 			rm $var/$CMAKECACHE
+			rm $var/*.cbp
 		fi
 	fi
 
